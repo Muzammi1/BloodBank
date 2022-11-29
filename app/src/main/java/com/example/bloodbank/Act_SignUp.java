@@ -3,6 +3,7 @@ package com.example.bloodbank;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.Toast;
 
 public class Act_SignUp extends AppCompatActivity {
 
@@ -12,5 +13,6 @@ public class Act_SignUp extends AppCompatActivity {
         setContentView(R.layout.activity_act_sign_up);
 
         //jhgjgj
+        Toast.makeText(this, "muzammil", Toast.LENGTH_SHORT).show();
     }
 }
